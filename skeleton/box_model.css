@@ -1,0 +1,29 @@
+div {height: 10px;
+  width: 200px;
+  padding: 50px;
+  border: solid  black 5px
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  box-sizing: border-box;
+  background-color: #ff4136;
+}
+
+p {width: 100px;
+  background-color: #7fdbff;
+}
+
+.flex-container {
+  display: flex;
+  height: 10px
+}
+
+.image-1-container {
+  width: 200px;
+  height: 600px;
+  background-color: teal
+}
