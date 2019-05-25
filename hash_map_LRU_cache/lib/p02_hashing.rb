@@ -4,8 +4,14 @@ end
 
 class Array
   def hash
+    return 528734985762348957 if empty? 
+    inject do |accum, ele| (528734985762348957)
+      accum ^ Integer(ele.to_s(2))
+    end
   end
 end
+
+
 
 class String
   def hash
